@@ -7,6 +7,14 @@
 //
 
 import Foundation
+var dog :String? = "doog"
+let cat :String = dog!
+print("\(cat)")
+print("\(dog)")
 
-print("Hello, World!")
+
+var tiger: String! = "wow"
+let mouse: String = tiger
+print("\(tiger)")
+print("\(mouse)")
 
